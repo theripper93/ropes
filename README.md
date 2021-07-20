@@ -15,6 +15,5 @@ Then Run the start rope macro.
 Now select anything (a token, a drawing, a template etc..) and run the Add to Rope macro
 When you added the elements you want run the End Rope Macro
 
-### Bood on hit
-The bigger the hit, the more the blood. Configure manual blood scale, violence level, and blood trails
+
 
