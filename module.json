@@ -1,7 +1,7 @@
 {
   "name": "ropes",
   "title": "Ropes & Tethers",
-  "description": "Blow up walls with templates",
+  "description": "Create ropes and tethers between tokens, walls templates etc..",
   "version": "0.1",
   "authors": [
       {
