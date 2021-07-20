@@ -1,6 +1,6 @@
 {
   "name": "ropes",
-  "title": "Ropes and Tethers",
+  "title": "Ropes & Tethers",
   "description": "Blow up walls with templates",
   "version": "0.1",
   "authors": [
@@ -25,6 +25,13 @@
   "styles": [
   ],
   "packs": [
+    {
+        "name": "ropesmacros",
+        "label": "Ropes & Tethers",
+        "path": "packs/macros.db",
+        "entity": "Macro",
+        "module": "ropes"
+    }
   ],
   "minimumCoreVersion": "0.8.6",
   "compatibleCoreVersion": "0.8.8",
