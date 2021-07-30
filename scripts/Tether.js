@@ -269,7 +269,6 @@ class Rope {
     });
   }
   static Create() {
-    debugger
     Tether.Create(
       canvas.currentRope.nodes,
       canvas.currentRope.texture,
