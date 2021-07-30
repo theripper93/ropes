@@ -84,7 +84,7 @@ class Tether {
       this._refresh();
     } else {
       Hooks.off("onMovementFrame", this.hookId);
-      this.graphics.destroy();
+      this.graphics.clear();
     }
   }
 
@@ -112,7 +112,7 @@ class Tether {
     }
     let tether = new Tether(explandedNodes, texture, options);
     Tether.addToFlags(tether);
-    Tether.addToCanvas(tether);
+    //Tether.addToCanvas(tether);
     return tether;
   }
   static DestroyByEntity(entity) {
@@ -269,6 +269,7 @@ class Rope {
     });
   }
   static Create() {
+    debugger
     Tether.Create(
       canvas.currentRope.nodes,
       canvas.currentRope.texture,
