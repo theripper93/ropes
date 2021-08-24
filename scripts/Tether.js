@@ -260,8 +260,8 @@ class Rope {
     this.nodes = [];
     this.texture = texture;
   }
-  static Start(options = { width: 5, stretchmark: true, length: 100, break: true }) {
-    canvas.currentRope = new Rope(options);
+  static Start(options = { width: 5, stretchmark: true, length: 100, break: true }, texture) {
+    canvas.currentRope = new Rope(options,texture);
   }
   static Add(element) {
     canvas.currentRope.nodes.push({
